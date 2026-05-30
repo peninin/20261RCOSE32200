@@ -5,3 +5,4 @@ Project 2 was about packet processing with TC eBPF inside the LINUX kernel.
 The client communicates using one VIP address instead of directly using backend addresses.
 Packet headers are rewritten by ingress and egress eBPF programs.
 eBPF maps were used to store flow information during load balancing.
+I tested the implementation using vip_client and tcpdump.
